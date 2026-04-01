@@ -8,22 +8,11 @@ Recommended file:
 
 ## How to create a demo GIF from the inference output video
 
-```bash
+
 # Install ffmpeg if needed
 sudo apt install ffmpeg
 
 # Convert mp4 → gif (first 10 seconds, 15 fps, 640 wide)
-<<<<<<< HEAD
-ffmpeg -i https://drive.google.com/file/d/1PrPcetnouRWICAvt0DTOaQFUyoGYKY2D/view?usp=drive_link \
-=======
-ffmpeg -i  '/Users/vishwanathreddy/523Vishwanath/Vehicle-Registration-Plate-Detection-using-YoloV8/vehicle-registration-plate-detection/assets/inference_traffic_light_video (2).avi'\
->>>>>>> a133586 (added gif)
-       -t 10 -vf "fps=15,scale=640:-1:flags=lanczos" \
-       -loop 0 assets/demo.gif
-```
 
-Then commit it:
-```bash
-git add assets/demo.gif
-git commit -m "Add inference demo GIF"
-```
+ffmpeg -i  '/Users/vishwanathreddy/523Vishwanath/Vehicle-Registration-Plate-Detection-using-YoloV8/vehicle-registration-plate-detection/assets/inference_traffic_light_video (2).avi'\
+
