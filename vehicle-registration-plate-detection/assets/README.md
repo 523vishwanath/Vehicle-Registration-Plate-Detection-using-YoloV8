@@ -13,7 +13,7 @@ Recommended file:
 sudo apt install ffmpeg
 
 # Convert mp4 → gif (first 10 seconds, 15 fps, 640 wide)
-ffmpeg -i runs/detect/yolov8m_predict_video/output.mp4 \
+ffmpeg -i https://drive.google.com/file/d/1PrPcetnouRWICAvt0DTOaQFUyoGYKY2D/view?usp=drive_link \
        -t 10 -vf "fps=15,scale=640:-1:flags=lanczos" \
        -loop 0 assets/demo.gif
 ```
