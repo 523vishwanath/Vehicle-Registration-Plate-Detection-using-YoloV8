@@ -1,0 +1,14 @@
+# YOLOv8 Dataset Configuration
+# Vehicle Registration Plate Detection
+
+# Dataset root path (update this to your local path)
+path: /content/vehicleDataset  # or your local absolute path
+
+# Train / val image directories (relative to 'path')
+train: images/train
+val: images/val
+
+# Class definitions
+nc: 1  # number of classes
+names:
+  0: RegPlate
