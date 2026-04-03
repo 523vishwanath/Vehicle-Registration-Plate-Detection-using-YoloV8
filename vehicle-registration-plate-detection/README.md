@@ -9,7 +9,7 @@
 <!-- Replace the src below with your own GIF once you export it from the inference video.
      See assets/README.md for the ffmpeg one-liner that converts mp4 → gif. -->
 
-![Inference Demo](assets/demo.gif)
+![Inference Demo](vehicle-registration-plate-detection/assets/RegPlate.gif)
 
 > **Live inference videos** (YouTube):
 > - [Project input video](https://youtu.be/-OzqIUXv6q0)
