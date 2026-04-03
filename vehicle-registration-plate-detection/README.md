@@ -11,8 +11,8 @@
 
 ![Inference Demo](vehicle-registration-plate-detection/assets/RegPlate.gif)
 
-> **Live inference videos** (YouTube):
-> - [Project input video](https://youtu.be/-OzqIUXv6q0)
+> **Please find Live inference videos** (YouTube):
+> - [Automatic Toll Collector](https://youtu.be/-OzqIUXv6q0)
 > - [Audi car (conf = 0.50)](https://youtu.be/oFTZWD4vPus?si=GzVBJAo4lUuFZnof)
 > - [Cycling traffic (conf = 0.15)](https://youtube.com/shorts/pENScjuN130?si=StAFIjkFd-2InjPo)
 
